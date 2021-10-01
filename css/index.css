@@ -261,7 +261,7 @@ footer nav a {
 
 .details-about {
     width: 100%;
-    padding: 2%;
+    padding: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,6 +271,9 @@ footer nav a {
     margin-bottom: 5%;
     padding-bottom: 2%;
     width: 50%;
+}
+.what-about img {
+    width: 95%;
 }
 
 .what-about h2 {
@@ -283,6 +286,7 @@ footer nav a {
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 5%;
+    width: 90%;
 }
 
 .what-about a {
