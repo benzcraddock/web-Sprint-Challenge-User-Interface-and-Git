@@ -1,73 +1,95 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- added for responsive web design -->
   <title>Sprint Challenge - About</title>
-
+  <!-- Add Google Fonts here -->
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+  <!-- Link stylesheet -->
   <link rel="stylesheet" href="css/index.css">
-
 </head>
 
+<header> <!-- header starts here with navigation and lambda school logo copied from index.html -->
+  <nav>
+      <div class="logo">
+          <img src="img/lambda-black.png" alt="Lambda School logo">
+      </div>
+      <div class="links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+      </div>
+  </nav>
+</header> <!-- header ends here -->
+
+<section class="banner"> <!-- banner image of city skyline starts here -->
+  <div class="banner-img">
+      <img src="img/jumbo-about.png" alt="Banner image of city skyline at sunset">
+  </div>
+</section> <!-- banner image of city skyline ends here -->
+
 <body>
-    <div class="container about-page">
-     
-    About
+    <div class="container-about-page"> <!-- container starts here -->
 
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+      <section class="top-content"> <!-- about page top-section starts here -->
+        <div class="container-about">
+          <h2>About</h2>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+        </div>
+      </section> <!-- about page top-section ends here -->
 
+      <section class="middle-about"> <!-- about page middle-section that includes strategy, how we work, places we work, and collaboration starts here -->
+        <div class="details-about"> <!-- first row starts here -->
+          <div class="what-about">
+            <img src="img/about-plan.png" alt="strategy">
+            <h2>Strategy</h2>
+            <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="what-about">
+            <img src="img/about-working.png" alt="strategy">
+            <h2>How We Work</h2>
+            <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div> <!-- first row ends here -->
+        <div class="details-about"> <!-- second row starts here -->
+          <div class="what-about">
+            <img src="img/about-office.png" alt="strategy">
+            <h2>Places We Work</h2>
+            <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="what-about">
+            <img src="img/about-meeting.png" alt="strategy">
+            <h2>Collaboration</h2>
+            <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div> <!-- second row ends here -->
+      </section> <!-- about page middle-section ends here -->
 
-    <img src="img/about-plan.png" alt="strategy">
-    
-    Strategy
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+      <section class="bottom-content"> <!-- about page bottom-section starts here -->
+        <div class="container-about">
+          <h2>Let's Work Together</h2>
+          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+        </div>
+      </section> <!-- about page bottom-section ends here -->
 
-    Learn More
-
-
-
-    <img src="img/about-working.png" alt="strategy">
-    
-    How We Work
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-
-
-    <img src="img/about-office.png" alt="strategy">
-    
-    Places We Work
-
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    <img src="img/about-meeting.png" alt="strategy">
-    
-    Collaboration
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    Let's Work Together
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-        
       <footer>
         <nav>
           <a href="index.html">Home</a>
-          <a href="#">About</a>
+          <a href="about.html">About</a> <!-- added ability to link to about page -->
           <a href="#">Products</a>
           <a href="#">Blog</a>
           <a href="#">Contact</a>
         </nav>
       </footer>
-    </div><!-- container -->        
+    </div> <!-- container ends here-->        
 </body>
 </html>
