@@ -236,3 +236,59 @@ footer nav a {
     text-decoration: none;
 }
 
+/* additional styles below for about page */
+
+/* top content styles selection */
+.top-content .container-about {
+    width: 100%;
+    padding: 0 2%;
+}
+
+/* middle about section styles */
+.container-about-page {
+    width: 100%;
+    padding: 0 17%;
+}
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 0;
+}
+
+.details-about {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-about {
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    width: 50%;
+}
+
+.what-about h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.what-about p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+}
+
+.what-about a {
+    padding: 2% 4%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+    background-color: #fbfffb;
+    border: 2px solid black;
+}
