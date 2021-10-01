@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is HTML that comes with more meaningful tags to describe the code that is written. Some examples are <h1>, <p>, and <section>.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+First, display: block means that elements are displayed as a block and take up the entire width available, allowing for a new line before and after the display:block. Second, display: inline means that elements are displayed inline, and only the amount of width needed will be used. Display: inline does not force new lines unlike display:block.
 
 3. What are the 4 areas of the box model?
 
+Content -> Padding -> Border -> and Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align-items: center works on the cross axis which is perpendicular to the main axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it is essentially a content tracker that makes version control easier and more efficient for developers to to add their content in parallel. With version control, developers can maintain a history of what changes may have occurred to their code. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,11 +60,11 @@ You are expected to be able to answer all these questions. Your responses contri
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [X] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
