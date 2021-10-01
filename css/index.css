@@ -108,6 +108,12 @@ nav {
     padding-bottom: 0;
 }
 
+.banner-img {
+    display:flex;
+    justify-content: center;
+    height: 25.55vh;
+}
+
 /* top content styles section */
 .container {
     width: 100%;
@@ -271,7 +277,9 @@ footer nav a {
     margin-bottom: 5%;
     padding-bottom: 2%;
     width: 50%;
+    border-bottom: 1px dashed black;
 }
+
 .what-about img {
     width: 95%;
 }
@@ -291,8 +299,13 @@ footer nav a {
 
 .what-about a {
     padding: 2% 4%;
-    margin-bottom: 2%;
     border-radius: 8px;
     background-color: #fbfffb;
     border: 2px solid black;
+}
+
+/* bottom about section styles */
+.bottom-content .container-about {
+    width: 100%;
+    padding: 1%;
 }
